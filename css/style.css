@@ -6,7 +6,7 @@
   overflow: hidden;
   text-align: center;
 }
-#sliderbox{
+.sliderbox{
   position: relative;
   width:3200px;
   height: 600px;
