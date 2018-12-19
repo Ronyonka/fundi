@@ -1,0 +1,62 @@
+#input {
+  margin-left: 20%;
+}
+
+.container-fluid {
+  margin: 25px;
+}
+
+.panel-heading h3 {
+  text-align: center;
+  color: #000080;
+  font-family: fantasy;
+}
+
+label {
+  color: #000080;
+}
+
+label p {
+  color: red;
+}
+
+.panel-footer {
+  text-align: center;
+  color: #000080;
+}
+
+#submit {
+  margin-left: 45%;
+  margin-top: 5%;
+  ;
+}
+
+span {
+  display: inline-block;
+}
+
+#response {
+  display: none;
+  text-align: center;
+  padding: 5%;
+  font-size: 17px;
+}
+
+#reviewMe {
+  width: 100px;
+  height: 100px;
+  background: grey  ;
+  transition: width 3s;
+  transition-delay: 1s;
+  margin-left: 47%;
+  margin-bottom: 0%;
+  display: none;
+}
+
+#reviewMe:hover {
+  width: 300px;
+}
+
+#reviews:hover {
+  width: 300px;
+}
