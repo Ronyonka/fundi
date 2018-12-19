@@ -1,15 +1,24 @@
-h1{
+h1 {
   text-align: center;
-  font-weight: 400;
+  font-weight: bold;
   font-family: 'Playfair Display', serif;
 }
-body{
+
+body {
   font-family: 'Poppins', sans-serif;
+  background-color: #F2F2F2;
 }
-.jumbotron{
-  color: white;
+
+.jumbotron {
+  color: #F2F2F2;
   background-color: #000080;
+  height: 180px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .cards {
   position: relative;
   width: 100%;
@@ -38,79 +47,128 @@ body{
 
 .cards:hover .image {
   opacity: 0.3;
+  -ms-transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .cards:hover .middle {
   opacity: 1;
 }
-button{
+
+button {
   border: none;
   background-color: #000080;
   color: white;
-}
-.button {
-  background-color: #000080;
   color: white;
   font-size: 16px;
   padding: 10px 26px;
   border-radius: 10px
 }
-#tailors{
-  display: none;
+
+button:focus {
+  outline: 0;
 }
-#electricians{
-  display: none;
+
+button:active {
+  outline: none;
+  border: none;
 }
-#carpenters{
+
+/* .button {
+  background-color: #000080;
+  color: white;
+  font-size: 16px;
+  padding: 10px 26px;
+  border-radius: 10px
+} */
+#tailors {
   display: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 40px;
 }
-#mechanics{
+
+#electricians {
   display: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 40px;
 }
+
+#carpenters {
+  display: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 40px;
+}
+
+#mechanics {
+  display: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 40px;
+}
+
+#cardRow {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 /* start of ivy code */
 .profile {
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
- max-width: 300px;
- margin: auto;
- text-align: center;
- font-family: arial;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.profile:hover {
+  -ms-transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .title {
- color: grey;
- font-size: 18px;
+  color: grey;
+  font-size: 18px;
 }
 
 .button1 {
- border: none;
- outline: 0;
- display: inline-block;
- padding: 8px;
- color: white;
- background-color: #000080;
- text-align: center;
- cursor: pointer;
- width: 100%;
- font-size: 18px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000080;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 
 a {
- text-decoration: none;
- font-size: 22px;
- color: black;
- margin: 24px 0;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  margin: 24px 0;
 }
 
 .button1:hover, a:hover {
- opacity: 0.7;
+  border: 10px bold solid #000080;
+  background-color: #F2F2F2;
+  color: #000080;
 }
+
 h2 {
- text-align: center;
- font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .profile {
- display: inline-block;
- padding: 50px;
+  display: inline-block;
+  padding: 50px;
 }
+
 /* end of ivy code */
