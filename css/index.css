@@ -154,7 +154,13 @@ a {
   color: black;
   margin: 24px 0;
 }
-
+a.service{
+  text-decoration: none;
+  color: white;
+}
+.service:hover{
+  text-decoration: none;
+}
 .button1:hover, a:hover {
   border: 10px bold solid #000080;
   background-color: #F2F2F2;
