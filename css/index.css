@@ -10,11 +10,13 @@ body {
 }
 
 .jumbotron {
-  color: white;
+  color: #F2F2F2;
   background-color: #000080;
-  height: 250px;
+  height: 180px;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cards {
@@ -45,6 +47,9 @@ body {
 
 .cards:hover .image {
   opacity: 0.3;
+  -ms-transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .cards:hover .middle {
@@ -55,16 +60,28 @@ button {
   border: none;
   background-color: #000080;
   color: white;
-}
-
-.button {
-  background-color: #000080;
   color: white;
   font-size: 16px;
   padding: 10px 26px;
   border-radius: 10px
 }
 
+button:focus {
+  outline: 0;
+}
+
+button:active {
+  outline: none;
+  border: none;
+}
+
+/* .button {
+  background-color: #000080;
+  color: white;
+  font-size: 16px;
+  padding: 10px 26px;
+  border-radius: 10px
+} */
 #tailors {
   display: none;
   padding-right: 15px;
@@ -93,7 +110,7 @@ button {
   padding-top: 40px;
 }
 
-#cards {
+#cardRow {
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -105,6 +122,12 @@ button {
   margin: auto;
   text-align: center;
   font-family: arial;
+}
+
+.profile:hover {
+  -ms-transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .title {
@@ -133,7 +156,9 @@ a {
 }
 
 .button1:hover, a:hover {
-  opacity: 0.7;
+  border: 10px bold solid #000080;
+  background-color: #F2F2F2;
+  color: #000080;
 }
 
 h2 {
