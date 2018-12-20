@@ -4,6 +4,7 @@
 <head>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/ivy.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -15,9 +16,8 @@
   <div class="chat-popup" id="myForm">
     <form class="form-container" action="https://formspree.io/nziokaivy@gmail.com" method="POST">
       <h1>Chat</h1>
-
       <label for="msg"><b>Message</b></label>
-      <textarea placeholder="Type message.." name="msg" required></textarea>
+      <textarea placeholder="Type message.." name="msg"></textarea>
 
       <button type="submit" class="btn">Send</button>
       <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
@@ -25,12 +25,25 @@
 
 
   </div>
-  <button type="button" class="contact">Call</button>
-  <label for="msg"><b>Message</b></label>
-  <textarea placeholder="Type message.." name="msg" required></textarea>
-  
-  <script src="js/ivy.js"></script>
+  <div class="dropdown">
+    <button class="dropdown" type="button" data-toggle="dropdown">
+  <span id="call">Call</span>
+  <div class="dropdown-content">
+  <p>07 12 34 56 78</p>
+  </div>
+</div>
 
+  <div>
+
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+  </div>
+
+  <script src="js/ivy.js"></script>
+  <script src="jquery-3.3.1.js"></script>
 </body>
 
 </html>
