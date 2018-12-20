@@ -1,0 +1,41 @@
+.container-fluid {
+  background-image: url("/home/moringa/Documents/moringa-school-projects/ips/fundi/development/fundi/img/home.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+#home {
+  text-align: center;
+  margin-left: 45%;
+  margin-top: 15%;
+  text-align: justify;
+  font-size: 15px;
+  color: white
+}
+#about h3{
+  text-align: center;
+  font-size:30px;
+}
+#about {
+  padding: 20px;
+}
+#one{
+  margin-top: 20px;
+  padding-bottom: 90px;
+}
+#two{
+  margin-top: 25px;
+}
+#about img {
+  margin-top: 15%
+}
+#three{
+  position: relative;
+  bottom: 70px;
+}
+#four{
+  position: relative;
+  bottom: 30px;
+}

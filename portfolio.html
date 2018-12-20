@@ -8,8 +8,10 @@
   <link rel="stylesheet" href="profile.css">
   <link href="artisan.css" rel="stylesheet" type="text/css">
   <link href="portfolio.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/ivy.css">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/script.js"></script>
+<script src="js/ivy.js"></script>
   <title></title>
 </head>
 
@@ -22,8 +24,7 @@
       </div>
       <div class="panel-body">
         <div class="row">
-          <div class="col-md-6">
-            <h3>Contact -<span>0774857756</span> </h3>
+          <div class="col-md-4">
             <h3>Location - <span>Prestige Plaza - Ngong Road</span></h3>
             <h3>Services include</h3>
             <ul>
@@ -31,9 +32,32 @@
               <li>Designs</li>
             </ul>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <h3>Location</h3>
             <img src="/home/moringa/Documents/moringa-school-projects/ips/fundi/development/fundi/img/Screenshot from 2018-12-19 16-41-09.png" height="150px" width="300px" alt="Geo-location">
+          </div>
+          <div class="col-md-4">
+            <button class="open-button" onclick="openForm()">Chat</button>
+
+            <div class="chat-popup" id="myForm">
+              <form class="form-container" action="https://formspree.io/nziokaivy@gmail.com" method="POST">
+                <h1>Chat</h1>
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg"></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+
+
+            </div>
+            <div class="dropdown">
+              <button class="dropdown" type="button" data-toggle="dropdown">
+                <span id="call">Call</span>
+                <div class="dropdown-content">
+                  <p>07 12 34 56 78</p>
+                </div>
+            </div>
           </div>
         </div>
 
@@ -41,7 +65,7 @@
           <h3>My Works</h3>
           <div class="col-md-4">
             <div id="div1">
-                <img src="https://www.zumi.co.ke/wp-content/uploads/2018/04/29738687_586186145088714_2931805982612783104_n-1.jpg" alt="women designs" height="250px" width="300px">
+              <img src="https://www.zumi.co.ke/wp-content/uploads/2018/04/29738687_586186145088714_2931805982612783104_n-1.jpg" alt="women designs" height="250px" width="300px">
             </div>
           </div>
           <div class="col-md-4">
@@ -55,7 +79,7 @@
         <div class="row">
           <div class="col-md-4">
             <div id="div2">
-                <img src="https://cdn.cnn.com/cnnnext/dam/assets/150702192727-wan-fam-6-super-169.jpg" alt="men designs" height="250px" width="300px">
+              <img src="https://cdn.cnn.com/cnnnext/dam/assets/150702192727-wan-fam-6-super-169.jpg" alt="men designs" height="250px" width="300px">
             </div>
           </div>
           <div class="col-md-4">
@@ -67,7 +91,7 @@
         <br>
 
         <div class="row">
-            <div class="col-md-4">
+          <div class="col-md-4">
             <div id="div3">
               <img src="https://netstorage-tuko.akamaized.net/images/0fgjhs6olqqgm50d4.jpg" alt="old designs" height="250px" width="300px">
             </div>
