@@ -1,22 +1,28 @@
-h1 {
+#fundi{
   text-align: center;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  padding-bottom: 50px;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #F2F2F2;
 }
-
+#img {
+  position: relative;
+  bottom: 7px;
+}
 .jumbotron {
   color: #F2F2F2;
   background-color: #000080;
-  height: 180px;
+  height: 150px;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .cards {
@@ -113,6 +119,7 @@ button:active {
 #cardRow {
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 50px;
 }
 
 /* start of ivy code */
