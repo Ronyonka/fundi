@@ -8,7 +8,10 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #F2F2F2;
 }
-
+#img {
+  position: relative;
+  bottom: 7px;
+}
 .jumbotron {
   color: #F2F2F2;
   background-color: #000080;

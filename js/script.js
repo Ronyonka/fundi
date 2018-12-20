@@ -14,3 +14,11 @@ $("#submit").on("click", function() {
         dataType: "json"
     });
 });
+
+$(document).ready(function(){
+  //$("#img").click(function(){
+    $("#div1").fadeIn("slow");
+    $("#div2").fadeIn(3000);
+    $("#div3").fadeIn(4000);
+  });
+});
