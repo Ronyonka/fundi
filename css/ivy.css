@@ -151,7 +151,7 @@ input[type=submit]:hover {
   }
 }
 
-.fa {
+/* .fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -198,7 +198,7 @@ input[type=submit]:hover {
 .fa-skype {
   background: #00aff0;
   color: white;
-}
+} */
 
 
 #contact-submit {
