@@ -1,4 +1,4 @@
-#fundi{
+#fundi {
   text-align: center;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
@@ -10,10 +10,12 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #F2F2F2;
 }
+
 #img {
   position: relative;
   bottom: 7px;
 }
+
 .jumbotron {
   color: #F2F2F2;
   background-color: #000080;
@@ -22,7 +24,6 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .cards {
@@ -81,13 +82,14 @@ button:active {
   border: none;
 }
 
-/* .button {
+.button {
   background-color: #000080;
   color: white;
   font-size: 16px;
   padding: 10px 26px;
   border-radius: 10px
-} */
+}
+
 #tailors {
   display: none;
   padding-right: 15px;
@@ -122,7 +124,6 @@ button:active {
   padding-top: 50px;
 }
 
-/* start of ivy code */
 .profile {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -161,14 +162,18 @@ a {
   color: black;
   margin: 24px 0;
 }
-a.service{
+
+a.service {
   text-decoration: none;
   color: white;
 }
-.service:hover{
+
+.service:hover {
   text-decoration: none;
 }
-.button1:hover, a:hover {
+
+.button1:hover,
+a:hover {
   border: 10px bold solid #000080;
   background-color: #F2F2F2;
   color: #000080;
@@ -183,5 +188,3 @@ h2 {
   display: inline-block;
   padding: 50px;
 }
-
-/* end of ivy code */
